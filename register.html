@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Note!!</title>
+        <link rel="stylesheet" href="../static/icons/bootstrap-icons.css">
+		<link rel="stylesheet" href="../static/css/bulma.css" />
+		<link rel="stylesheet" href="../static/css/bootstrap.css" />
+		<link rel="stylesheet" href="../static/css/style.css" />
+		<script defer src="../static/js/bootstrap.bundle.js"></script>
+        <script defer src="../static/js/app.js"></script>
+	</head>
+	<body>
+        <header>
+            <nav class="p-2 has-background-primary-light">
+                <div class="container-md header_nav">
+                    <form class="d-flex gap-3 my-2 my-lg-0">
+                        <a class="d-flex gap-2 text-decoration-none" style="justify-content: center; align-items: center;">
+                            <h5>
+                                Scribely
+                            </h5>
+                        </a>
+                        <img src="../static/profile_img.jpg" class="profile_img" alt="">
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <main class="container-md my-4">
+            <div class="d-flex justify-content-center">
+                <section class="container-md justify-content-center login-card row">
+                    <div class="col-md-6">
+                        <form action="" class="card border-0">
+                            <div class="card-header border-0 has-background-primary" style="box-shadow: none;">
+                                <h4 class="text-light text-center w-100 border-0">
+                                    Register
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="mb-3 text-center">
+                                    <img src="../static/profile_img.jpg" class="profile_img" alt="">
+                                </div>
+                                <div action="">
+                                    <div class="mb-3">
+                                        <label for="username" class="label text-muted">Username</label>
+                                        <input type="text" class="py-2 form-control modal_input_username" name="username" id="username" aria-describedby="username" placeholder="e.g. Johndoe33">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Email" class="label text-muted">Email</label>
+                                        <input type="email" class="py-2 form-control modal_input_username" name="email" id="email" aria-describedby="username" placeholder="e.g. Johndoe33@mail.com">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="user_image" class="label text-muted">Display photo</label>
+                                      <input type="file" class="form-control modal_input_username" name="user_image" id="user_image" placeholder="display photo" aria-describedby="display photo">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Password" class="label text-muted">Password</label>
+                                        <input type="password" class="py-2 form-control modal_input_username" name="password" id="password" aria-describedby="password" placeholder="password">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Password2" class="label text-muted">Password</label>
+                                        <input type="password" class="py-2 form-control modal_input_username" name="password2" id="password2" aria-describedby="password" placeholder="confirm password">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-none">
+                                <div class="w-100 signup_link">
+                                    <button class="button w-100 is-primary" type="submit">Register</button>
+                                    <div class="text-center text-muted mt-3">
+                                        Already have an account? Login <a href="#">here</a>.
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </body>
+</html>

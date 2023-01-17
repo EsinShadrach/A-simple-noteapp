@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Note!!</title>
+        <link rel="stylesheet" href="../static/icons/bootstrap-icons.css">
+		<link rel="stylesheet" href="../static/css/bulma.css" />
+		<link rel="stylesheet" href="../static/css/bootstrap.css" />
+		<link rel="stylesheet" href="../static/css/style.css" />
+		<script defer src="../static/js/bootstrap.bundle.js"></script>
+        <script defer src="../static/js/app.js"></script>
+	</head>
+	<body>
+        <header>
+            <nav class="p-2 has-background-primary-light">
+                <div class="container-md header_nav">
+                    <form class="d-flex gap-3 my-2 my-lg-0">
+                        <img src="../static/c++.png" class="profile_img" alt="">
+                        <div class="rounded search_cont">
+                            <input class="input is-primary search" type="text" placeholder="Search">
+                            <button class="button rounded-end is-primary search-btn" type="submit">
+                                <i class="bi-search has-text-dark"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <main class="container-md my-4">
+            <form action="">
+                <div class="">
+                    <label for="" class="label has-text-primary">*Note Name</label>
+                    <input type="text" class="note_name label has-text-primary input is-primary">
+                </div>
+                <div class="row my-4 gy-3">
+                    <div class="col-md-4">
+                        <label for="" class="label has-text-link">Tag-1</label>
+                        <input type="text" class="input tag_1 has-text-primary is-warning label" placeholder="Tag">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="" class="label has-text-link">Tag-2</label>
+                        <input type="text" class="input tag_2 has-text-primary is-primary label" placeholder="Tag">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="" class="label has-text-link">Tag-3</label>
+                        <input type="text" class="input tag_3 has-text-primary is-danger label" placeholder="Tag">
+                    </div>
+                </div>
+                <div>
+                    <textarea class="text_update rounded p-3 label has-text-primary" rows="10" placeholder="Write Note.." name="note_content"></textarea>
+                </div>
+                <div class="row mt-2 g-3">
+                    <div class="col-md-6">
+                        <a href="#" class="text-decoration-none button w-100 is-link">Cancel</a>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="button w-100 is-primary" type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
